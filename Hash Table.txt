@@ -1,0 +1,46 @@
+Hash Table:
+
+Hash table using linked list.
+
+To handle collision seperate chaining is used.
+
+Hash function:
+
+key- as string
+
+Hash value calculation:
+
+	hash_value = (sum of ASCII value of all char of key) % (size of hash table)
+
+	ex- key = "10", hash size =10
+
+   	sum of ascii value of "1" and "0" is 49+48 = 97
+    	hash_value = 97 % 10 = 7
+
+	therefore this key store at index [7] in hash table
+
+
+Separate Chaining: 
+	The idea is to make each cell of hash table point to a linked list of records that have same hash function value.
+
+
+• Insert
+	- to insert the element in hash table with its key and value
+
+• Delete
+	- to delete the element from the hash table using key
+
+• Contains
+	- to check whether a particular element is present in hash table or not by its key
+
+• Get Value by key
+	- to get the value of element by its key
+
+• Size
+	- to get the size of hash table
+
+• Iterator
+	- to print the hash table using iterator
+
+• Traverse/Print
+	- to traverse/print the hash table 
