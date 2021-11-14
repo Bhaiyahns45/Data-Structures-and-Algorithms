@@ -1,0 +1,30 @@
+Priority Queue operations:
+
+Implementation using linked list
+
+Condition - small number equal to higher priority ex- 1>2>3
+	  - if two element has same priority the element inserted in the FIFO order
+
+• Enqueue
+	- to insert the element with its priority
+
+• Dequeue
+	- it delete the element with the highest priority
+
+• Peek
+	- to get the peek(highest priority) element from the priority queue without removing it
+
+• Contains
+	- to check whether the priority queue contains a particular element or not
+
+• Size
+	- to get the size of priority queue
+
+• Reverse
+	- to print the priority queue in reverse order
+
+• Iterator
+	- to traverse/print the priority queue using iterator
+
+• Traverse/Print
+	-to traverse/print the priority queue
