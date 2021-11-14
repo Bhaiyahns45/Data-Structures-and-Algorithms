@@ -1,0 +1,56 @@
+N-Child Tree operations:
+
+Level L-0 -> root node at level 0
+
+
+• Insert
+	- insert the root node followed by its child nodes
+	- if you again insert then the new n-child tree created 
+
+• Delete
+	- to delete all the leaf nodes of tree
+
+• Contains
+	- to check whether the tree contains the particular element or not
+
+• Get Elements by value
+	- it gives all the child of that node for which the node data match to the value you have given
+	- if more than one node present then it gives the result of first match node
+
+ex-
+	      10                   if you enter the value 12 then ans = 16 17 18 (all child of 12 node)
+          /  /  \    \
+        11   12   13   14
+      /     / | \    \
+    15     16 17  18   19
+
+
+• Get Elements by level
+	- to get the elements by its level
+
+
+	L-0 -> 10
+	L-1 -> 11 12 13 14 
+	L-2 -> 15 16 17 18 19
+
+
+• Iterator Breadth First
+	- to get the tree element in the breadth first(level order) pattern using iterator
+	- Breadth First = 10 11 12 13 14 15 16 17 18 19 
+	
+• Iterator Depth First
+	- to get the tree element in the depth first(pre-order) pattern using iterator
+	- Depth First (Pre-order traversal) = 10 11 15 12 16 17 18 13 19 14
+
+
+• Traverse/Print Breadth First
+	- to traverse/print the tree element in breadth first(level order)
+
+	L-0 -> 10
+	L-1 -> 11 12 13 14 
+	L-2 -> 15 16 17 18 19
+
+
+• Traverse/Print Depth First
+	- to traverse/print the tree element in depth first(pre-order)
+	- Depth First (Pre-order traversal) = 10 11 15 12 16 17 18 13 19 14
